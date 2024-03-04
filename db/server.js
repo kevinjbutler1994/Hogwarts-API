@@ -19,7 +19,7 @@ db.on('connected', ()=>{
     console.clear()
     console.log(chalk.blue("Connected to MongoDB!"));
 
-    app.listen(PORT, ()=> {
+    app.listen(port, ()=> {
         console.log(chalk.magenta('Express server running on port ${port}'));
 
     })
